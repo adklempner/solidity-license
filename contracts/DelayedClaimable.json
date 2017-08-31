@@ -1,0 +1,99 @@
+{
+  "contract_name": "DelayedClaimable",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "claimOwnership",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "start",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_start",
+          "type": "uint256"
+        },
+        {
+          "name": "_end",
+          "type": "uint256"
+        }
+      ],
+      "name": "setLimits",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "pendingOwner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "end",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x60606040525b60008054600160a060020a03191633600160a060020a03161790555b5b610283806100316000396000f300606060405236156100675763ffffffff60e060020a6000350416634e71e0c881146100695780638da5cb5b1461007b578063be9a6555146100a7578063c4590d3f146100c9578063e30c3978146100e1578063efbe1c1c1461010d578063f2fde38b1461012f575bfe5b341561007157fe5b61007961014d565b005b341561008357fe5b61008b6101b7565b60408051600160a060020a039092168252519081900360200190f35b34156100af57fe5b6100b76101c6565b60408051918252519081900360200190f35b34156100d157fe5b6100796004356024356101cc565b005b34156100e957fe5b61008b610206565b60408051600160a060020a039092168252519081900360200190f35b341561011557fe5b6100b7610215565b60408051918252519081900360200190f35b341561013757fe5b610079600160a060020a036004351661021b565b005b60015433600160a060020a039081169116146101695760006000fd5b600254431115801561017d57506003544310155b15156101895760006000fd5b6001805460008054600160a060020a0319908116600160a060020a0384161782559091169091556002555b5b565b600054600160a060020a031681565b60035481565b60005433600160a060020a039081169116146101e85760006000fd5b808211156101f65760006000fd5b600281905560038290555b5b5050565b600154600160a060020a031681565b60025481565b60005433600160a060020a039081169116146102375760006000fd5b60018054600160a060020a031916600160a060020a0383161790555b5b505600a165627a7a723058206c3e9f23fff6401933b1f3bb398f8ecdadd51ebdd5143a04755a585e04dc9c0c0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1504045377103
+}
