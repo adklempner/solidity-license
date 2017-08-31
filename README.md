@@ -1,6 +1,8 @@
 # Licensing Demo
 Example of how licensing could work via smart contracts.
 
+Running on Ropsten Test Network, accessible via web3-enabled browser: https://adklempner.github.io/solidity-license/
+
 
 # Contracts
 ## Licensed.sol
